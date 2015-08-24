@@ -4,6 +4,7 @@ from sklearn.cluster import KMeans
 import numpy as np
 from numpy import savetxt
 
+
 #Reading train data set
 train = pd.read_csv('train.csv')
 #Reading test data set
